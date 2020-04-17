@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7A7D272447AADD002FBBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7A7D262447AADD002FBBAB /* AppDelegate.swift */; };
+		6D7A7D292447AADD002FBBAB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D282447AADD002FBBAB /* art.scnassets */; };
+		6D7A7D2B2447AADD002FBBAB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7A7D2A2447AADD002FBBAB /* GameViewController.swift */; };
+		6D7A7D2E2447AADD002FBBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D2C2447AADD002FBBAB /* Main.storyboard */; };
+		6D7A7D302447AADF002FBBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D2F2447AADF002FBBAB /* Assets.xcassets */; };
+		6D7A7D332447AADF002FBBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D312447AADF002FBBAB /* LaunchScreen.storyboard */; };
+		6D7A7D3D244A0D72002FBBAB /* dueloffates.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D3C244A0D72002FBBAB /* dueloffates.mp3 */; };
+		6D7A7D40244A1782002FBBAB /* acrossthestars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D3F244A1782002FBBAB /* acrossthestars.mp3 */; };
+		6D7A7D42244A1C03002FBBAB /* imperialmarch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D41244A1C03002FBBAB /* imperialmarch.mp3 */; };
+		6D7A7D44244A1DF3002FBBAB /* starwarsmaintheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D43244A1DF3002FBBAB /* starwarsmaintheme.mp3 */; };
+		6D7A7D46244A1E70002FBBAB /* battleofheroes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D45244A1E70002FBBAB /* battleofheroes.mp3 */; };
+		6D7A7D48244A1F38002FBBAB /* astronomia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D47244A1F38002FBBAB /* astronomia.mp3 */; };
+		6D7A7D4A244A21D5002FBBAB /* rickastley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D49244A21D5002FBBAB /* rickastley.mp3 */; };
+		6D7A7D4C244A2458002FBBAB /* nyancat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D4B244A2458002FBBAB /* nyancat.mp3 */; };
+		6D7A7D4E244A2534002FBBAB /* vitas7element.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D4D244A2534002FBBAB /* vitas7element.mp3 */; };
+		6D7A7D50244A2581002FBBAB /* roundabout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D4F244A2580002FBBAB /* roundabout.mp3 */; };
+		6D7A7D52244A2608002FBBAB /* concerningofthehobbits.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D51244A2608002FBBAB /* concerningofthehobbits.mp3 */; };
+		6D7A7D54244A27E7002FBBAB /* manymeetings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D53244A27E7002FBBAB /* manymeetings.mp3 */; };
+		6D7A7D56244A290B002FBBAB /* khazaddum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D55244A290B002FBBAB /* khazaddum.mp3 */; };
+		6D7A7D58244A2971002FBBAB /* thebreakingfellowship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D57244A2971002FBBAB /* thebreakingfellowship.mp3 */; };
+		6D7A7D5A244A29DF002FBBAB /* ridersofrohan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7A7D59244A29DF002FBBAB /* ridersofrohan.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D7A7D232447AADD002FBBAB /* TractorSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TractorSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7A7D262447AADD002FBBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D7A7D282447AADD002FBBAB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6D7A7D2A2447AADD002FBBAB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6D7A7D2D2447AADD002FBBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D7A7D2F2447AADF002FBBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D7A7D322447AADF002FBBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D7A7D342447AADF002FBBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7A7D3C244A0D72002FBBAB /* dueloffates.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dueloffates.mp3; sourceTree = "<group>"; };
+		6D7A7D3F244A1782002FBBAB /* acrossthestars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acrossthestars.mp3; sourceTree = "<group>"; };
+		6D7A7D41244A1C03002FBBAB /* imperialmarch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = imperialmarch.mp3; sourceTree = "<group>"; };
+		6D7A7D43244A1DF3002FBBAB /* starwarsmaintheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starwarsmaintheme.mp3; sourceTree = "<group>"; };
+		6D7A7D45244A1E70002FBBAB /* battleofheroes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battleofheroes.mp3; sourceTree = "<group>"; };
+		6D7A7D47244A1F38002FBBAB /* astronomia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = astronomia.mp3; sourceTree = "<group>"; };
+		6D7A7D49244A21D5002FBBAB /* rickastley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rickastley.mp3; sourceTree = "<group>"; };
+		6D7A7D4B244A2458002FBBAB /* nyancat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nyancat.mp3; sourceTree = "<group>"; };
+		6D7A7D4D244A2534002FBBAB /* vitas7element.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vitas7element.mp3; sourceTree = "<group>"; };
+		6D7A7D4F244A2580002FBBAB /* roundabout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roundabout.mp3; sourceTree = "<group>"; };
+		6D7A7D51244A2608002FBBAB /* concerningofthehobbits.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = concerningofthehobbits.mp3; sourceTree = "<group>"; };
+		6D7A7D53244A27E7002FBBAB /* manymeetings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = manymeetings.mp3; sourceTree = "<group>"; };
+		6D7A7D55244A290B002FBBAB /* khazaddum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = khazaddum.mp3; sourceTree = "<group>"; };
+		6D7A7D57244A2971002FBBAB /* thebreakingfellowship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thebreakingfellowship.mp3; sourceTree = "<group>"; };
+		6D7A7D59244A29DF002FBBAB /* ridersofrohan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ridersofrohan.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7A7D202447AADD002FBBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7A7D1A2447AADD002FBBAB = {
+			isa = PBXGroup;
+			children = (
+				6D7A7D252447AADD002FBBAB /* TractorSimulator */,
+				6D7A7D242447AADD002FBBAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7A7D242447AADD002FBBAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7A7D232447AADD002FBBAB /* TractorSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7A7D252447AADD002FBBAB /* TractorSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				6D7A7D262447AADD002FBBAB /* AppDelegate.swift */,
+				6D7A7D282447AADD002FBBAB /* art.scnassets */,
+				6D7A7D2A2447AADD002FBBAB /* GameViewController.swift */,
+				6D7A7D2C2447AADD002FBBAB /* Main.storyboard */,
+				6D7A7D2F2447AADF002FBBAB /* Assets.xcassets */,
+				6D7A7D3E244A0ED6002FBBAB /* Sounds */,
+				6D7A7D312447AADF002FBBAB /* LaunchScreen.storyboard */,
+				6D7A7D342447AADF002FBBAB /* Info.plist */,
+			);
+			path = TractorSimulator;
+			sourceTree = "<group>";
+		};
+		6D7A7D3E244A0ED6002FBBAB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6D7A7D41244A1C03002FBBAB /* imperialmarch.mp3 */,
+				6D7A7D43244A1DF3002FBBAB /* starwarsmaintheme.mp3 */,
+				6D7A7D47244A1F38002FBBAB /* astronomia.mp3 */,
+				6D7A7D49244A21D5002FBBAB /* rickastley.mp3 */,
+				6D7A7D57244A2971002FBBAB /* thebreakingfellowship.mp3 */,
+				6D7A7D4B244A2458002FBBAB /* nyancat.mp3 */,
+				6D7A7D4D244A2534002FBBAB /* vitas7element.mp3 */,
+				6D7A7D4F244A2580002FBBAB /* roundabout.mp3 */,
+				6D7A7D55244A290B002FBBAB /* khazaddum.mp3 */,
+				6D7A7D59244A29DF002FBBAB /* ridersofrohan.mp3 */,
+				6D7A7D53244A27E7002FBBAB /* manymeetings.mp3 */,
+				6D7A7D51244A2608002FBBAB /* concerningofthehobbits.mp3 */,
+				6D7A7D45244A1E70002FBBAB /* battleofheroes.mp3 */,
+				6D7A7D3C244A0D72002FBBAB /* dueloffates.mp3 */,
+				6D7A7D3F244A1782002FBBAB /* acrossthestars.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7A7D222447AADD002FBBAB /* TractorSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7A7D372447AADF002FBBAB /* Build configuration list for PBXNativeTarget "TractorSimulator" */;
+			buildPhases = (
+				6D7A7D1F2447AADD002FBBAB /* Sources */,
+				6D7A7D202447AADD002FBBAB /* Frameworks */,
+				6D7A7D212447AADD002FBBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TractorSimulator;
+			productName = TractorSimulator;
+			productReference = 6D7A7D232447AADD002FBBAB /* TractorSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7A7D1B2447AADD002FBBAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Luiz Henrique Monteiro de Carvalho";
+				TargetAttributes = {
+					6D7A7D222447AADD002FBBAB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 6D7A7D1E2447AADD002FBBAB /* Build configuration list for PBXProject "TractorSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7A7D1A2447AADD002FBBAB;
+			productRefGroup = 6D7A7D242447AADD002FBBAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7A7D222447AADD002FBBAB /* TractorSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7A7D212447AADD002FBBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7A7D292447AADD002FBBAB /* art.scnassets in Resources */,
+				6D7A7D40244A1782002FBBAB /* acrossthestars.mp3 in Resources */,
+				6D7A7D44244A1DF3002FBBAB /* starwarsmaintheme.mp3 in Resources */,
+				6D7A7D46244A1E70002FBBAB /* battleofheroes.mp3 in Resources */,
+				6D7A7D332447AADF002FBBAB /* LaunchScreen.storyboard in Resources */,
+				6D7A7D48244A1F38002FBBAB /* astronomia.mp3 in Resources */,
+				6D7A7D302447AADF002FBBAB /* Assets.xcassets in Resources */,
+				6D7A7D4C244A2458002FBBAB /* nyancat.mp3 in Resources */,
+				6D7A7D5A244A29DF002FBBAB /* ridersofrohan.mp3 in Resources */,
+				6D7A7D58244A2971002FBBAB /* thebreakingfellowship.mp3 in Resources */,
+				6D7A7D4A244A21D5002FBBAB /* rickastley.mp3 in Resources */,
+				6D7A7D56244A290B002FBBAB /* khazaddum.mp3 in Resources */,
+				6D7A7D50244A2581002FBBAB /* roundabout.mp3 in Resources */,
+				6D7A7D52244A2608002FBBAB /* concerningofthehobbits.mp3 in Resources */,
+				6D7A7D3D244A0D72002FBBAB /* dueloffates.mp3 in Resources */,
+				6D7A7D42244A1C03002FBBAB /* imperialmarch.mp3 in Resources */,
+				6D7A7D2E2447AADD002FBBAB /* Main.storyboard in Resources */,
+				6D7A7D4E244A2534002FBBAB /* vitas7element.mp3 in Resources */,
+				6D7A7D54244A27E7002FBBAB /* manymeetings.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7A7D1F2447AADD002FBBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7A7D2B2447AADD002FBBAB /* GameViewController.swift in Sources */,
+				6D7A7D272447AADD002FBBAB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D7A7D2C2447AADD002FBBAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7A7D2D2447AADD002FBBAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D7A7D312447AADF002FBBAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7A7D322447AADF002FBBAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D7A7D352447AADF002FBBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D7A7D362447AADF002FBBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D7A7D382447AADF002FBBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCTJN36MFX;
+				INFOPLIST_FILE = TractorSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TractorSimulatorReturns.TractorSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D7A7D392447AADF002FBBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCTJN36MFX;
+				INFOPLIST_FILE = TractorSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TractorSimulatorReturns.TractorSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7A7D1E2447AADD002FBBAB /* Build configuration list for PBXProject "TractorSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7A7D352447AADF002FBBAB /* Debug */,
+				6D7A7D362447AADF002FBBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7A7D372447AADF002FBBAB /* Build configuration list for PBXNativeTarget "TractorSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7A7D382447AADF002FBBAB /* Debug */,
+				6D7A7D392447AADF002FBBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7A7D1B2447AADD002FBBAB /* Project object */;
+}
